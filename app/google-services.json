@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "116147673334",
+    "project_id": "finalprojectvideogames",
+    "storage_bucket": "finalprojectvideogames.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116147673334:android:9c608b0b2c3f1c787ab4d7",
+        "android_client_info": {
+          "package_name": "com.example.finalproject_videogames"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKXAtA9eCvGG9y2u9PAI0e13gzo_r3WEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
