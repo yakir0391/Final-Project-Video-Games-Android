@@ -43,7 +43,6 @@ public class gameListAdapter extends RecyclerView.Adapter<gameListAdapter.MyView
                     int position = getAdapterPosition();
                     if (position != RecyclerView.NO_POSITION){
                         Game selectedGame = gameList.get(position);
-                        // Handle the item click and navigate to the details fragment
                         Fragment detailFragment = game_details.newInstance(selectedGame);
                         FragmentTransaction transaction = ((AppCompatActivity) view.getContext()).getSupportFragmentManager().beginTransaction();
                         transaction.replace(R.id.fragmentContainerView, detailFragment);

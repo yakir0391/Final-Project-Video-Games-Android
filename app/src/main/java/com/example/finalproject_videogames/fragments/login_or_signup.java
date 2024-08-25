@@ -26,9 +26,7 @@ public class login_or_signup extends Fragment {
 
     private FirebaseAuth mAuth;
 
-    public login_or_signup() {
-        // Required empty public constructor
-    }
+    public login_or_signup() {}
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -67,9 +65,7 @@ public class login_or_signup extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View fragView = inflater.inflate(R.layout.fragment_login_or_signup, container, false);
         Button loginBtn = (Button) fragView.findViewById(R.id.loginBtn);
         loginBtn.setOnClickListener(new View.OnClickListener() {

@@ -21,9 +21,7 @@ public class game_details extends Fragment {
     private static final String ARG_GAME = "game";
     private Game game;
 
-    public game_details() {
-        // Required empty public constructor
-    }
+    public game_details() {}
 
     public static game_details newInstance(Game game) {
         game_details fragment = new game_details();
@@ -43,7 +41,6 @@ public class game_details extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
         View fragView = inflater.inflate(R.layout.fragment_game_details, container, false);
 
         TextView nameTextView = fragView.findViewById(R.id.gameName);

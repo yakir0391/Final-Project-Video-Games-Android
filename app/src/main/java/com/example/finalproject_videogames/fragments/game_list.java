@@ -26,9 +26,7 @@ public class game_list extends Fragment {
     ArrayList<Game> arr;
     gameListAdapter adapter;
 
-    public game_list() {
-        // Required empty public constructor
-    }
+    public game_list() {}
 
     public static game_list newInstance(String param1, String param2) {
         game_list fragment = new game_list();
@@ -44,9 +42,7 @@ public class game_list extends Fragment {
 
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View fragView = inflater.inflate(R.layout.fragment_game_list, container, false);
 
         arr =  gamesServiceAPI.getGameList();
